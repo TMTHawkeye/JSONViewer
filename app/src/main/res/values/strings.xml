@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JSONViewer</string>
+    <string name="main_app">JSON Viewer</string>
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="add_fav">Add to Favorite</string>
+    <string name="backPress_content">We work hard to make things better for you,and would love to know.How would you rate this app?</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:id="@+id/rel"
+        android:background="@drawable/drawer_top_card"
+        android:padding="16dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/cardviewlung"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="50dp"
+      >
+
+        <ImageView
+            android:id="@+id/lungInCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/json_viewer_svg"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_app"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/cardviewlung"
+        android:textSize="15dp"
+        android:textColor="@color/half_white"
+        android:fontFamily="@font/montserrat_medium"
+  />
+    </RelativeLayout>
+
+</RelativeLayout>

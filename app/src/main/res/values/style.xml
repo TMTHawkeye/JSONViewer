@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="smallTextStyle" >
+        <item name="fontFamily">@font/gilroy_medium</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="filepickertheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:windowBackground">@color/unicorn_colorPrimary</item>
+        <item name="android:navigationBarColor">@color/blue</item>
+        <item name="android:navigationIcon">@color/white</item>
+        <!-- textColorPrimary is for toolbar title text  -->
+        <item name="android:textColorPrimary">@color/blue</item>
+
+        <!-- textColorSecondary is for toolbar action icons tint-->
+        <item name="android:textColorSecondary">@color/blue</item>
+
+        <item name="unicorn.colorAccent">@color/blue</item>
+        <item name="unicorn.fabColor">#95BAE6</item>
+        <item name="unicorn.background">@color/unicorn_white</item>
+        <item name="unicorn.secondaryTextColor">@color/unicorn_black_70</item>
+        <item name="unicorn.primaryTextColor">@color/unicorn_black</item>
+        <item name="unicorn.file.heading">@color/blue</item>
+        <item name="unicorn.file.subHeading">@color/unicorn_black_70</item>
+        <item name="unicorn.file.iconTint">@color/blue</item>
+        <item name="unicorn.file.arrowIconTint">@color/unicorn_white</item>
+        <item name="unicorn.file.selectionTint">@color/unicorn_grey</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowFixedWidthMajor">90%</item>
+        <item name="windowFixedWidthMinor">90%</item>
+    </style>
+
+</resources>
